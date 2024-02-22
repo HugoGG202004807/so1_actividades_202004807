@@ -11,10 +11,11 @@
 #!/bin/bash
 
 while true; do
-    echo "¡Hola! La fecha actual es: $(date)"
+    echo "Hola Hugo Giron :) La fecha actual es: $(date)"
     sleep 1
 done
 ```
+
 
 * Guardar el achivo presionando Ctr+O 
 * Darle permisos de ejecucion con el comando
@@ -54,9 +55,13 @@ sudo systemctl start saludo.service
 ## Para poder ver los logs en tiempo real utiliza el comando
 
 ```
-journalctl -u nombre_del_servicio -f
+journalctl -u saludo.service -f
 
 ```
+
+![image](https://github.com/HugoGG202004807/so1_actividades_202004807/assets/81279833/956c9713-8bab-421a-88c2-482bf8868d9a)
+
+
 
 
 
